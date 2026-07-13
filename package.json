@@ -1,0 +1,34 @@
+{
+  "name": "dark-midnight-pink-two",
+  "displayName": "Dark Midnight Pink two",
+  "description": "Midnight black dark theme with pink accents ",
+  "version": "0.0.3",
+  "publisher": "Ruvaaaaaa",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/Ruvaaa/dark-midnight-pink-two"
+  },
+  "keywords": [
+    "theme",
+    "pink",
+    "dark pink",
+    "dark midnight pink",
+    "girly theme",
+    "pink theme"
+  ],
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Midnight Pink 2.0",
+        "uiTheme": "hc-black",
+        "path": "./themes/Dark Midnight Pink 2.0-color-theme.json"
+      }
+    ]
+  }
+}
