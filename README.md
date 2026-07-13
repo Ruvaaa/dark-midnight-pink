@@ -13,7 +13,7 @@ A ruthless, distraction-free **pitch-black workspace** featuring striking neon p
 ---
 
 ## Preview 
-![Theme Showcase](./images/image.png)
+![Theme Showcase](./image.png)
 
 ## Theme Palette Reference
 
