@@ -1,12 +1,13 @@
 {
   "name": "dark-midnight-pink-two",
-  "displayName": "Dark Midnight Pink two",
+  "displayName": "Dark Midnight Pink",
   "description": "Midnight black dark theme with pink accents ",
-  "version": "0.0.3",
+  "version": "0.0.5",
+  "icon":"icon.png",
   "publisher": "Ruvaaaaaa",
   "repository": {
     "type":"git",
-    "url":"https://github.com/Ruvaaa/dark-midnight-pink-two"
+    "url":"https://github.com/Ruvaaa/dark-midnight-pink"
   },
   "keywords": [
     "theme",
