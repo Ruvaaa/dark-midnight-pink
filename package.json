@@ -1,18 +1,20 @@
 {
   "name": "dark-midnight-pink-two",
   "displayName": "Dark Midnight Pink",
-  "description": "Midnight black dark theme with pink accents ",
+  "description": "Midnight dark theme with vibrant pink accents, now featuring an eye-friendly soft light pink variant.",
   "version": "0.0.6",
-  "icon":"icon.png",
+  "icon": "icon.png",
   "publisher": "Ruvaaaaaa",
   "repository": {
-    "type":"git",
-    "url":"https://github.com/Ruvaaa/dark-midnight-pink"
+    "type": "git",
+    "url": "https://github.com/Ruvaaa/dark-midnight-pink"
   },
   "keywords": [
     "theme",
     "pink",
     "dark pink",
+    "light pink",
+    "soft pink",
     "dark midnight pink",
     "girly theme",
     "pink theme"
@@ -29,6 +31,11 @@
         "label": "Dark Midnight Pink 2.0",
         "uiTheme": "hc-black",
         "path": "./themes/Dark Midnight Pink 2.0-color-theme.json"
+      },
+      {
+        "label": "Dark Midnight Pink Light 2.0",
+        "uiTheme": "vs",
+        "path": "./themes/Dark Midnight Pink Light 2.0-color-theme.json"
       }
     ]
   }
