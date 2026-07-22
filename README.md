@@ -1,49 +1,65 @@
-# Midnight Cyberpunk (Two)
+# Dark Midnight Pink 
 
-A ruthless, distraction-free **pitch-black workspace** featuring striking neon pink accents, electric cyans, and deep plum structural styling. Built specifically for developers who demand high scannability, deep screen contrast, and zero compromises on pure `#000000` dark-mode aesthetics.
-
----
-
-##  Core Features
-
-*   **Absolute Black Backdrop:** Maximizes OLED panel performance and drastically reduces eye strain during late-night programming sessions by locking the editor, sidebar, terminals, and panels to pure black.
-*   **High-Scan Code Diagnostics:** Errors, warning hooks, and Git status states map to a vivid, high-contrast neon palette so you can triage line items instantly.
-*   **Immersive Panel Architecture:** Completely eliminates generic grey boundaries. Floating widgets, the command center, autocomplete lists, and interactive terminals blend seamlessly into a single unified workspace layout.
+A high-contrast, distraction-free workspace aesthetic built for Visual Studio Code. Featuring a striking blend of deep midnight bases, vibrant cyber pink accents, and high-readability structural highlights, this extension package now includes both **Dark** and **Light** variants for seamless workflow flexibility.
 
 ---
 
-## Preview 
-![Theme Showcase](./image.png)
+## Theme Previews
 
-## Theme Palette Reference
+### Midnight Cyberpunk (Dark)
+![Midnight Cyberpunk Dark Preview](./image.png)
 
-| Spectrum Component | Hex Code | Visual Layout Assignment |
-| :--- | :--- | :--- |
-| **Midnight Base** | `#000000` | Code Canvas, Sidebar, Terminals, Output Frames |
-| **Cyber Pink** | `#b81858` | Active Focus Highlights, Tab Highlights, Buttons |
-| **Electric Cyan** | `#4edbec` | Match Highlighting, Suggestion Matches, Git Modifications |
-| **Deep Plum** | `#471a2c` | Structural Borders, Active Cell Segments, Closed Frames |
-| **Muted Rose** | `#7a5c6c` | Gutter Assets, Inactive File Items, Breadcrumb Resting States |
+### Midnight Pink (Light Variant)
+![Midnight Pink Light Preview](./light.png)
 
 ---
 
-##  Activation Instructions
+## Package Highlights & Themes
 
-1. Install the extension directly from the VS Code Marketplace.
-2. Navigate to your Theme Preferences via **File > Preferences > Theme > Color Theme** (or use the shortcut `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T`).
-3. Select **Midnight Cyberpunk (Two)** from the dropdown list.
-4. *Optional:* If your interface elements do not dynamically repaint immediately on launch, reload your environment window layout completely via the Command Palette (`Ctrl+Shift+P` -> `Developer: Reload Window`).
+This extension package provides two distinct color themes tailored for day-and-night programming sessions:
+
+### 1. Midnight Cyberpunk (Dark)
+* **Pitch-Black Base (`#000000`):** Maximizes panel performance and minimizes eye strain during late-night coding sessions.
+* **Vivid Cyber Pink (`#b81858`) & Electric Cyan (`#4edbec`):** Drives immediate visual triage for active focus states, syntax highlights, and Git diagnostics.
+* **Deep Plum Structural Architecture (`#471a2c`):** Replaces generic grey panel borders with clean, cohesive visual separation.
+
+### 2. Midnight Pink (Light Variant)
+* **Soft Light Canvas:** A clean, radiant backdrop designed to maintain high readability and low fatigue under bright ambient room lighting.
+* **Adapted Magenta & Rose Accents:** Reimagines signature pink and plum accents into crisp, high-contrast dark tones against a bright editor canvas.
+* **Unified UI Flow:** Maintains the exact structural hierarchy and file status indicators as the dark variant for consistent context switching.
 
 ---
 
-##  Customization Hooks
+## Activation & Quick Start
 
-Want to tweak the contrast limits further to fit your specific monitor profile? You can override any key locally inside your user profile `settings.json` file using the `workbench.colorCustomizations` block:
+1. Install **Dark Midnight Pink Two** directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/).
+2. Open your Theme Preferences via **File > Preferences > Theme > Color Theme** (or press `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T`).
+3. Choose your preferred variant from the dropdown list:
+   * **`Midnight Cyberpunk (Two)`** *(Dark)*
+   * **`Midnight Pink Light`** *(Light)*
+
+> **Tip:** To automatically switch between the dark and light variants based on your OS settings, add the following to your `settings.json`:
+>
+> ```json
+> "window.autoDetectColorScheme": true,
+> "workbench.preferredDarkColorTheme": "Midnight Cyberpunk (Two)",
+> "workbench.preferredLightColorTheme": "Midnight Pink Light"
+> ```
+
+---
+
+##  Customization Overrides
+
+You can further refine specific UI contrast levels locally by overriding key attributes in your `settings.json` file:
 
 ```json
 "workbench.colorCustomizations": {
-    "[Midnight Cyberpunk (Two)]": {
-        "editor.background": "#000000",
-        "statusBar.background": "#000000"
-    }
+  "[Midnight Cyberpunk (Two)]": {
+    "editor.background": "#000000",
+    "statusBar.background": "#000000"
+  },
+  "[Midnight Pink Light]": {
+    "editor.background": "#fdeef4",
+    "statusBar.background": "#f6ecf0"
+  }
 }
