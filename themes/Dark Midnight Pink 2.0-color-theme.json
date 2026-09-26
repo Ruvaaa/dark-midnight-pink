@@ -92,13 +92,12 @@
 		//scrollbar control
 		"scrollbar.background": "#000000",
 		"scrollbar.shadow":"#301622",
-		"scrollbarSlider.activeBackground": "#ee688e82",
-		"scrollbarSlider.background": "#ee688e82",
-		"scrollbarSlider.hoverBackground": "#bc356982",
+		"scrollbarSlider.activeBackground": "#d3227482",
+		"scrollbarSlider.hoverBackground": "#d3227482",
 
 		//Badge
 		"badge.foreground": "#f1ebed",
-		"badge.background": "#ff69b4",
+		"badge.background": "#850b48",
 
 		//progress bar
 		"progressBar.background": "#ed4272b0",
@@ -107,7 +106,7 @@
         "editor.lineHighlightBorder": "#2e3eb266",
 
 		//lists and trees
-		"list.activeSelectionBackground": "#000000",
+		"list.activeSelectionBackground": "#5a0b258e",
 		"list.activeSelectionForeground": "#f1ebed",
 		"list.activeSelectionIconForeground": "#e0b0c0",
 		"list.dropBackground": "#000000",
@@ -115,10 +114,10 @@
 		"list.focusForeground": "#f1ebed",
 		"list.focusHighlightForeground": "#f1ebed",
 		"list.highlightForeground": "#f1ebed",
-		"list.hoverBackground": "#5a0b258e",
+		"list.hoverBackground": "#8e01408e",
 		"list.hoverForeground": "#e1afc2",
-		"list.focusOutline":"#250617",
-		"list.focusAndSelectionOutline":"#250617",
+		"list.focusOutline":"#551735",
+		"list.focusAndSelectionOutline":"#551735",
 		"quickInputList.focusHighlightForeground": "#f1ebed",
 		"list.inactiveSelectionBackground": "#000000",
 		"list.inactiveSelectionForeground": "#f1ebed",
@@ -134,26 +133,30 @@
 		"listFilterWidget.shadow": "#000000",
 		"list.filterMatchBackground": "#000000",
 		"list.filterMatchBorder":"#250617",
-        "tree.inactiveIndentGuidesStroke": "#000000",
-        "tree.indentGuidesStroke": "#000000",
-        "tree.tableColumnsBorder": "#000000",
+        "tree.inactiveIndentGuidesStroke": "#37021b",
+        "tree.indentGuidesStroke": "#37021b",
+        "tree.tableColumnsBorder": "#37021b",
         "tree.tableOddRowsBackground": "#0d0508",
         "focusBorder": "#250617",
 
+
 		//activity bar
 		"activityBar.background": "#000000",
-		"activityBar.foreground": "#9b0e47",
+		"activityBar.foreground": "#a70747",
 		"activityBar.inactiveForeground": "#7c566b",
 		"activityBar.border": "#250617",
 		"activityBarBadge.background":"#231429",
 		"activityBarBadge.foreground":"#f1ebed",
-		"activityBar.activeBackground": "#2d051771",
-		"activityBar.activeBorder": "#5099a1",
+		"activityBar.activeBackground": "#84033dab",
+		"activityBar.activeBorder": "#358a94",
 		"activityBar.activeFocusBorder": "#5099a1",
-		"activityBarTop.foreground":"#f1ebed",
+		"activityBarTop.foreground":"#a70747",
 		"activityBarTop.activeBorder":"#ca004d",
 		"activityBarTop.inactiveForeground": "#e7e7e799",
 		"activityBarTop.dropBorder": "#000000",
+
+        // Modern Layout Pill & Hover Overrides
+        "actionBar.toggledBackground": "#84033dce", // Fill for the selected icon capsule
 	
 		//minimap
 		"minimap.background": "#000000",             // Makes the minimap backdrop absolute black
@@ -171,6 +174,22 @@
         
         "editorGroupHeader.noTabsBackground": "#000000",
         "editorGroupHeader.border": "#250617",
+
+        //editor
+        "editorIndentGuide.background1": "#300d1c",
+
+        // Highlighted line for the current code block where your cursor is sitting
+        "editorIndentGuide.activeBackground1": "#450e26",
+
+        // Additional nesting depth colors (if bracket pair colorization/guides are used)
+        "editorIndentGuide.background2": "#4e1231",
+        "editorIndentGuide.activeBackground2": "#571135",
+
+        "editorIndentGuide.background3": "#870749",
+        "editorIndentGuide.activeBackground3": "#ab0259",
+
+        "editorIndentGuide.background4": "#d80e76",
+        "editorIndentGuide.activeBackground4": "#cd1072",
         
         /* Active Tab Styling */
         "tab.activeBackground": "#2a0d1a",
@@ -296,7 +315,7 @@
 
         "editorHoverWidget.background": "#000000",
         "editorHoverWidget.border": "#000000",
-        "editorHoverWidget.foreground": "#f1ebed",
+        "editorHoverWidget.foreground": "#b81b4f",
         "editorHoverWidget.statusBarBackground": "#000000",
 
         "editorGhostText.foreground": "#7a5c6c88",
@@ -376,7 +395,7 @@
         "panel.dropBorder": "#b81858",
         
         "panelTitle.activeBorder": "#000000",
-        "panelTitle.activeForeground": "#f1ebed",
+        "panelTitle.activeForeground": "#ce0447",
         "panelTitle.inactiveForeground": "#888888",
         "panelTitle.border": "#000000",
         
@@ -414,7 +433,7 @@
         "statusBar.noFolderBorder": "#000000",
         
         "statusBarItem.hoverBackground": "#00000044",
-        "statusBarItem.hoverForeground": "#f1ebed",
+        "statusBarItem.hoverForeground": "#b81b4f",
         "statusBarItem.activeBackground": "#00000088",
         "statusBarItem.focusBorder": "#b81858",
         "statusBar.focusBorder": "#b81858",
@@ -422,12 +441,12 @@
         "statusBarItem.remoteBackground": "#b81858",
         "statusBarItem.remoteForeground": "#f1ebed",
         "statusBarItem.remoteHoverBackground": "#8a0d5f",
-        "statusBarItem.remoteHoverForeground": "#f1ebed",
+        "statusBarItem.remoteHoverForeground": "#b81b4f",
         
         "statusBarItem.warningBackground": "#ccecb5",
         "statusBarItem.warningForeground": "#000000",
         "statusBarItem.warningHoverBackground": "#b81858",
-        "statusBarItem.warningHoverForeground": "#f1ebed",
+        "statusBarItem.warningHoverForeground": "#b81b4f",
         "statusBarItem.errorBackground": "#8a0d5f",
         "statusBarItem.errorForeground": "#f1ebed",
         "statusBarItem.errorHoverBackground": "#b81858",
