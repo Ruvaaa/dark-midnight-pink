@@ -7,7 +7,7 @@ A high-contrast, distraction-free workspace aesthetic built for Visual Studio Co
 ## Theme Previews
 
 ### Dark Midnight Pink 2.0 (Dark)
-![Dark Midnight Pink Preview](./image.png)
+![Dark Midnight Pink Preview](./dark.png)
 
 ### Dark Midnight Pink Light 2.0 (Light Variant)
 ![Dark Midnight Pink Light Preview](./light.png)
