@@ -675,7 +675,7 @@
         "symbolIcon.arrayForeground": "#e0b0c0",
 
         "notebook.editorBackground": "#000000",
-        "notebook.cellBorderColor": "#561025",
+        "notebook.cellBorderColor": "#fd609f32",
         "notebook.focusedCellBorder": "#b81858",
         "notebook.cellHoverBackground": "#00000022",
         "notebook.cellStatusBarItemHoverBackground": "#00000044",
