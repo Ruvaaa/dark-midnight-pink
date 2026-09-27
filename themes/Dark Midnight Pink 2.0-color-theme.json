@@ -18,14 +18,14 @@
 		"sideBar.foreground": "#f1ebed",
 		"sideBarStickyScroll.shadow": "#fc91bc",
 
-		"contrastActiveBorder": "#000000",
-		"contrastBorder": "#250617",
+		"contrastActiveBorder": "#f6488e",
+		"contrastBorder": "#34071e",
 		"foreground": "#f1ebed",
 		"widget.border": "#250617",
 		"selection.background": "#af4b73",
 		"descriptionForeground": "#b81556",
 		"errorForeground": "#f1ebed",
-		"icon.foreground": "#5099a1",
+		"icon.foreground": "#4edbec",
 		"sash.hoverBorder": "#000000",
 		"window.activeBorder": "#b7014a",
 		"window.inactiveBorder": "#000000",
@@ -42,7 +42,7 @@
 		"editorActionList.focusBackground": "#000000",
 		"editorActionList.focusForeground": "#f1ebed",
 
-		"button.background": "#ea5582",
+		"button.background": "#9d274e",
 		"button.foreground": "#f1ebed",
 		"button.hoverBackground": "#f5538384",
 		"button.border": "#000000",
@@ -91,9 +91,10 @@
 
 		//scrollbar control
 		"scrollbar.background": "#000000",
-		"scrollbar.shadow":"#301622",
-		"scrollbarSlider.activeBackground": "#c31968c1",
-		"scrollbarSlider.hoverBackground": "#c31968c1",
+		"scrollbar.shadow":"#f81e75ae",
+		"scrollbarSlider.activeBackground": "#ff1b76",
+		"scrollbarSlider.hoverBackground": "#ff1b76",
+        "scrollbarSlider.background": "#ff1b76a5",
 
 		//Badge
 		"badge.foreground": "#f1ebed",
@@ -106,22 +107,22 @@
         "editor.lineHighlightBorder": "#2e3eb266",
 
 		//lists and trees
-		"list.activeSelectionBackground": "#5a0b258e",
-        "list.activeSelectionForeground": "#f1ebed",
+		"list.activeSelectionBackground": "#ff1b76ad",
+        "list.activeSelectionForeground": "#ffffff",
         "list.activeSelectionIconForeground": "#e0b0c0",
         "list.dropBackground": "#000000",
-        "list.focusBackground": "#5a0b258e",
+        "list.focusBackground": "#a8093e8e",
         "list.focusForeground": "#f1ebed",
         "list.focusHighlightForeground": "#f1ebed",
         "list.highlightForeground": "#f1ebed",
-        "list.hoverBackground": "#8e01408e",
-        "list.hoverForeground": "#e1afc2",
+        "list.hoverBackground": "#2c0715",
+        "list.hoverForeground": "#fcbed7",
         "list.focusOutline": "#951d4b",
         "list.focusAndSelectionOutline": "#951d4b",
         "quickInputList.focusHighlightForeground": "#f1ebed",
 
         // --- INACTIVE SELECTION FIXES ---
-        "list.inactiveSelectionBackground": "#5a0b258e",      // Matches active selection tint
+        "list.inactiveSelectionBackground": "#ff1b7672",      // Matches active selection tint
         "list.inactiveSelectionForeground": "#f1ebed",
         "list.inactiveSelectionIconForeground": "#e0b0c0",  // Keeps file icon tinted pink
         "list.inactiveFocusBackground": "#5a0b258e", 
@@ -143,13 +144,13 @@
         "tree.indentGuidesStroke": "#37021b",
         "tree.tableColumnsBorder": "#37021b",
         "tree.tableOddRowsBackground": "#0d0508",
-        "focusBorder": "#250617",
+        "focusBorder": "#34071e",
 
 
 		//activity bar
 		"activityBar.background": "#000000",
 		"activityBar.foreground": "#a70747",
-		"activityBar.inactiveForeground": "#7c566b",
+		"activityBar.inactiveForeground": "#512a40",
 		"activityBar.border": "#250617",
 		"activityBarBadge.background":"#231429",
 		"activityBarBadge.foreground":"#f1ebed",
@@ -210,9 +211,9 @@
 
         /* Hover States */
         "tab.hoverBackground": "#00000033",
-        "tab.hoverForeground": "#a81647",
+        "tab.hoverForeground": "#db83a0",
         "tab.hoverBorder": "#250617",
-        "tab.unfocusedHoverForeground": "#9e0659",
+        "tab.unfocusedHoverForeground": "#db83a0",
 
         /* Unfocused States */
         "tab.unfocusedActiveBackground": "#18080f",
@@ -321,7 +322,7 @@
 
         "editorHoverWidget.background": "#000000",
         "editorHoverWidget.border": "#000000",
-        "editorHoverWidget.foreground": "#b81b4f",
+        "editorHoverWidget.foreground": "#db83a0",
         "editorHoverWidget.statusBarBackground": "#000000",
 
         "editorGhostText.foreground": "#7a5c6c88",
@@ -460,9 +461,9 @@
 
 		//title bar
 		"titleBar.activeBackground": "#000000",
-        "titleBar.activeForeground": "#f1ebed",
+        "titleBar.activeForeground": "#af406c",
         "titleBar.inactiveBackground": "#000000",
-        "titleBar.inactiveForeground": "#7a5c6c",
+        "titleBar.inactiveForeground": "#c28fa3",
         "titleBar.border": "#000000",
 
         //menu bar
@@ -506,7 +507,7 @@
         "banner.foreground": "#f1ebed",
         "banner.iconForeground": "#b81858",
 
-		"extensionButton.prominentBackground": "#b81858",
+		"extensionButton.prominentBackground": "#9d274e",
         "extensionButton.prominentForeground": "#ffffff",
         "extensionButton.prominentHoverBackground": "#8a0d5f",
         "extensionButton.background": "#000000",
@@ -683,8 +684,8 @@
         "notebook.selectedCellBackground": "#00000033",
         "notebook.selectedCellBorder": "#b81858",
         "notebook.symbolHighlightBackground": "#00000033",
-        "notebookScrollbarSlider.background": "#ee688e55",
-        "notebookScrollbarSlider.hoverBackground": "#ee688e82",
+        "notebookScrollbarSlider.background": "#ff1b76a5",
+        "notebookScrollbarSlider.hoverBackground": "#ff1b76",
         "notebookStatusSuccessIcon.foreground": "#ccecb5",
         "notebookStatusErrorIcon.foreground": "#8a0d5f",
         "notebookStatusRunningIcon.foreground": "#4edbec",
@@ -713,11 +714,6 @@
         "editorBracketPairGuide.background6": "#f1ebed22"
 
     },
-
-	"workbench.colorCustomizations": {
-    "contrastBorder": "#00000000",   // Removes the individual option borders
-    "menu.border": "#ffb3d6"          // Keeps one nice border around the whole widget
-	},
 
 
     "tokenColors": [
